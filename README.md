@@ -1,4 +1,50 @@
-# 📘 Module 5: Machine Learning Integration
+# 📘 Machine Learning Integration
+
+# 🧠 Mind Map: ML Integration
+
+```mermaid
+mindmap
+  root((ML Integration))
+    Serialization
+      Libraries
+        Pickle
+        Joblib
+        Keras
+        Tensorflow
+        PyTorch
+      Formats
+        JSON
+        Binary
+        HDF5
+      Benefits
+        Save Time
+        Portability
+        Reproducibility
+        Integration
+        MLOps
+    Pickle vs Joblib
+      Pickle: General
+      Joblib: Optimized for NumPy
+    I/O Schemas
+      Validation
+      API Contracts
+      Developer Experience
+      Reusability
+      Complex Structures
+      Logging & Testing
+    Serving with FastAPI
+      Decoupling
+      Real-time Predictions
+      Platform-Agnostic
+      High Performance
+      Validation
+      Docker & Cloud
+    Batch Predictions
+      Vectorized Speed
+      Reduced Overhead
+      Parallel Execution
+```
+
 
 This README summarizes **Module 5 notes** and presents the content in a clean, developer-friendly way with a **mind map**.
 
@@ -116,50 +162,6 @@ def batch_predict(data: BatchInput):
 
 ---
 
-# 🧠 Mind Map: ML Integration
-
-```mermaid
-mindmap
-  root((ML Integration))
-    Serialization
-      Libraries
-        Pickle
-        Joblib
-        Keras
-        Tensorflow
-        PyTorch
-      Formats
-        JSON
-        Binary
-        HDF5
-      Benefits
-        Save Time
-        Portability
-        Reproducibility
-        Integration
-        MLOps
-    Pickle vs Joblib
-      Pickle: General
-      Joblib: Optimized for NumPy
-    I/O Schemas
-      Validation
-      API Contracts
-      Developer Experience
-      Reusability
-      Complex Structures
-      Logging & Testing
-    Serving with FastAPI
-      Decoupling
-      Real-time Predictions
-      Platform-Agnostic
-      High Performance
-      Validation
-      Docker & Cloud
-    Batch Predictions
-      Vectorized Speed
-      Reduced Overhead
-      Parallel Execution
-```
 
 ---
 
